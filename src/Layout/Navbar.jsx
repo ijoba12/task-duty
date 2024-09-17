@@ -49,6 +49,7 @@ const Navbar = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <p className="mb-0">
+                  <img className="icon-lady" src={navImage} alt="" />
                 <ul className="d-flex row list-unstyled py-2  gap-5 align-items-center">
                   <li>
                     {" "}
@@ -58,7 +59,6 @@ const Navbar = () => {
                     {" "}
                     <Link className="nav-text text-decoration-none" to="/Task"> All Tasks </Link>{" "}
                   </li>
-                  <img className="icon-lady" src={navImage} alt="" />
                 </ul>
                 {/* This is content within an <code>.offcanvas-lg</code>. */}
               </p>
