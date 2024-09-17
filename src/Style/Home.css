@@ -1,0 +1,42 @@
+.main {
+    margin-top: 2.5rem;
+    gap: 129px;
+  }
+  h2 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  span {
+    color: #974fd0;
+  }
+  .p-home {
+    font-size: 22px;
+    font-weight: 400;
+    color: #737171;
+  }
+  .btn-home {
+    width: 35%;
+    font-size: 20px;
+  }
+  @media (max-width: 1114px) {
+    .main {
+      flex-direction: column-reverse;
+      display: flex;
+      text-align: center;
+      gap: 50px;
+    }
+    h2 {
+      font-size: 40px;
+    }
+    .p-home {
+      font-size: 19px;
+    }
+    .btn-home {
+      font-size: 15px;
+      width: auto;
+    }
+    .compo-img {
+      width: 100%;
+      height: auto;
+    }
+  }
